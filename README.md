@@ -1,6 +1,6 @@
 <img src="https://www.islas.org.mx/img/logo.svg" align="right" width="256" />
 
-# Examen de selección 2022 para Analista de Datos en GECI
+# Examen de admisión 2024 para voluntariado en Ciencia de Datos en GECI
 
 - [Ver convocatoria](https://www.facebook.com/IslasGECI/posts/3250808525199345)
 
@@ -26,7 +26,7 @@ podrás crear ningún _pull request_ hasta que tengas tu
 
 ## Rúbrica
 
-El objetivo de este examen de selección es evaluar las habilidades para el trabajo colaborativo a
+El objetivo de este examen de admisión es evaluar las habilidades para el trabajo colaborativo a
 distancia. Para eso usaremos los siguientes rubros:
 
 - **Capacidad para el trabajo colaborativo a distancia**:
@@ -134,4 +134,3 @@ de tu modelo en GitHub Actions en la sección _Evaluate a directory_.
 - [_Forkeado_ de un repositorio](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 ---
-
