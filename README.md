@@ -2,8 +2,6 @@
 
 # Examen de admisión 2024 para voluntariado en Ciencia de Datos en GECI
 
-- [Ver convocatoria](https://www.facebook.com/IslasGECI/posts/3250808525199345)
-
 ## Predicción de la edad de pollos de petrel negro a partir de su morfometría
 
 Debes estimar la edad (en días) de un conjunto de pollos de petrel negro a partir de su morfometría.
