@@ -10,7 +10,5 @@ RUN pip install --upgrade pip && pip install \
     mypy \
     pylint \
     pytest \
-    pytest-cov \
-    scikit-learn \
-    tensorflow
+    pytest-cov
 RUN Rscript -e "install.packages(c('covr', 'devtools', 'DT', 'lintr', 'roxygen2', 'styler', 'testthat', 'vdiffr'), repos='http://cran.rstudio.com')"
