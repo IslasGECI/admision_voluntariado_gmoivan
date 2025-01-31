@@ -27,6 +27,15 @@ def test_get_target_mean():
     assert expected_mean == obtained_mean
 
 
+# Obten valor maximo de target
+def test_get_target_max():
+    data = {"id": [1, 2], "target": [3, 4]}
+    dataset = pd.DataFrame(data=data)
+    obtained_max = get_target_max(dataset)
+    expected_max = 4
+    assert expected_max == obtained_max
+
+
 # Lee test.csv
 def test_read_testing_dataset():
     testing_dataset = read_testing_dataset()
