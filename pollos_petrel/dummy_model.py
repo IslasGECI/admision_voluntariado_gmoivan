@@ -14,6 +14,12 @@ def get_target_mean(dataset: pd.DataFrame) -> float:
     return mean_target
 
 
+# Obtiene maximo valor de target
+def get_target_max(dataset: pd.DataFrame) -> float:
+    max_target = dataset["target"].max()
+    return max_target
+
+
 # Lee test.csv
 def read_testing_dataset() -> pd.DataFrame:
     testing_dataset_path = "/workdir/data/raw/test.csv"
