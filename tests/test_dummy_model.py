@@ -2,6 +2,7 @@ from pollos_petrel import (
     add_mean_as_target,
     drop_all_but_id,
     get_target_mean,
+    get_target_max,
     read_testing_dataset,
     read_training_dataset,
     write_submission,
@@ -25,6 +26,15 @@ def test_get_target_mean():
     obtained_mean = get_target_mean(dataset)
     expected_mean = 3.5
     assert expected_mean == obtained_mean
+
+
+# Obten el maximo de target
+def test_get_target_max():
+    data = {"id": [1, 2], "target": [3, 4]}
+    dataset = pd.DataFrame(data=data)
+    obtained_max = get_target_max(dataset)
+    expected_max = 4
+    assert expected_max == obtained_max
 
 
 # Lee test.csv
