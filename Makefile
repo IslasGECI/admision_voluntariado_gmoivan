@@ -1,7 +1,7 @@
-submissions: \
-	data/processed/gmo_submission.csv
+submissions:
+    pollos_petrel/gmo_submission.csv
 
-data/processed/gmo_submission.csv: setup_python src/gmo_submission.py
+pollos_petrel/gmo_submission.csv: setup_python src/gmo_submission.py
 	@echo "Creating Python gmo_submission..."
 	src/gmo_submission.py
 
