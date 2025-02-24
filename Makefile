@@ -1,13 +1,13 @@
 submissions: \
     pollos_petrel/example_python_submission.csv \
-    pollos_petrel/example_r_submission.csv \
-    pollos_petrel/gmo_submission.csv
+    pollos_petrel/example_r_submission.csv \   
+	data/processed/gmo_submission.csv
 
 pollos_petrel/example_python_submission.csv: setup_python src/example_submission.py
 	@echo "Creating Python submission..."
 	src/example_submission.py
 
-pollos_petrel/gmo_submission.csv: setup_python src/gmo_submission.py
+data/processed/gmo_submission.csv: setup_python src/gmo_submission.py
 	@echo "Creating Python gmo_submission..."
 	src/gmo_submission.py
 
