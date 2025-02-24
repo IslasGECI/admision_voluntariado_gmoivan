@@ -8,7 +8,7 @@ pollos_petrel/example_python_submission.csv: setup_python src/example_submission
 	src/example_submission.py
 
 pollos_petrel/gmo_submission.csv: setup_python src/gmo_submission.py
-	@echo "Creating Python submission..."
+	@echo "Creating Python gmo_submission..."
 	src/gmo_submission.py
 
 pollos_petrel/example_r_submission.csv: setup_r src/example_submission.R
