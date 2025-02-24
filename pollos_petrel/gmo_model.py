@@ -45,6 +45,6 @@ def add_mean_as_target() -> pd.DataFrame:
 
 # Guarda el archivo con sufijo _submission.csv
 def write_gmo_submission():
-    submission_path = "pollos_petrel/gmo_submission.csv"
+    submission_path = "/workdir/data/processed/gmo_submission.csv"
     submission = add_mean_as_target()
     submission.to_csv(submission_path)
