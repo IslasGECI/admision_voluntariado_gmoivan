@@ -1,6 +1,6 @@
 submissions: \
     pollos_petrel/example_python_submission.csv \
-    pollos_petrel/example_r_submission.csv \   
+    pollos_petrel/example_r_submission.csv \
 	data/processed/gmo_submission.csv
 
 pollos_petrel/example_python_submission.csv: setup_python src/example_submission.py
